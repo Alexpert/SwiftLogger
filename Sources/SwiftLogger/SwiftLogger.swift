@@ -1,5 +1,11 @@
 import Foundation
 
+enum LogType {
+    case ERROR
+    case DEBUG
+    case INFO
+}
+
 class SwiftLogger {
     var enabledLogTypes: [LogType]
     var path: String
